@@ -5,12 +5,16 @@ Splash-3 is a benchmark suite based on Splash-2 but without data races. It was
 first presented at [ISPASS'16](http://ieeexplore.ieee.org/abstract/document/7482078/).
 The version used here for proting is originally taken from (https://github.com/SakalisC/Splash-3)
 
-#1--> Compile
+
+
+# 1--> Compile
 	   in Makefile.config
 	   set CC := to your riscv-gcc compiler
 	   set BASEDIR :=  to the dorectory where this makefile is located. 
 
-#2--> Run
+
+
+# 2--> Run
 
 	Detail run instructions are given in the Readme file in the directory of each benchmark. Different sets of intputs are available to be used. For testing i only used the recommended inputs for running Splash-3 in a  Qemu-riscv64 simulator. I have used 4 processor core in each run and the exetuion time is provided in each README file just for example. The inputs used are based on the original Splash-2 characterization paper by Woo et al. [1].
 
